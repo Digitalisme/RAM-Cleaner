@@ -57,6 +57,6 @@ int main()
 
     std::chrono::steady_clock::time_point end = std::chrono::steady_clock::now();
     std::cout << "[] Finished in " << std::chrono::duration_cast<std::chrono::milliseconds>(end - begin).count() << " ms\n";
-    std::cout << "[Press any key to continue]"; _getch();
+    // std::cout << "[Press any key to continue]"; _getch();
     return 0;
 }
